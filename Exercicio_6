@@ -1,0 +1,15 @@
+# Exercício 6
+
+# Declarando variáveis
+lanchePreco = 10.90
+batataPreco = 5.40
+lancheQtde = int(input('Quantos lanches você quer? '))
+batatatQtde = int(input('Quantas batatas você quer? '))
+dinheiroTotal = int(input('Quanto de dinheiro você tem? '))
+
+# Calculando custo total
+custoTotal = lancheQtde*lanchePreco + batatatQtde*batataPreco
+comparacao = custoTotal <= dinheiroTotal
+# Imprimindo resposta
+print('Sua compra ficou em: ', custoTotal)
+print('Você tem dinheiro o suficiente para pagar: ', comparacao )
