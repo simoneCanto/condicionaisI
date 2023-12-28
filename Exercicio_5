@@ -1,0 +1,10 @@
+# Exercício 5
+
+# Pedindo inputs
+c = int(input('Digite um número: '))
+d = int(input('Digite outro número: '))
+# Imprimindo comparação
+print('A variável c é igual a d: ', c == d)
+
+# Imprimindo comparação
+print(' A variével c é maior ou igual a d: ', c>=d)
