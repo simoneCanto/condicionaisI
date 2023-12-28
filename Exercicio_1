@@ -1,0 +1,8 @@
+# Exercício 1
+
+entrada = input('Digite algo: ')
+
+if entrada.isnumeric() == True:
+  print('Esse input é um número!!')
+else:
+  print('Esse input não é um número, tente novamente.')
