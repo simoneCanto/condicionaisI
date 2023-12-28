@@ -1,0 +1,18 @@
+# Exercício 4
+
+num1 = float(input('Digite um número: '))
+num2 = float(input('Digite outro número: '))
+operacao = input('Qual operação quer realizar? ')
+
+if operacao == 'soma':
+  print('Num1 + Num2 é ugual a:', num1 + num2)
+elif operacao == 'subtracao':
+  print('Num1 - Num2 é ugual a:', num1 - num2)
+elif operacao == 'divisao':
+  print('Num1 / Num2 é ugual a:', round(num1 / num2, 2))
+elif operacao == 'multiplicacao':
+  print('Num1 * Num2 é ugual a:', num1 * num2)
+elif operacao == 'potencia':
+  print('Num1 ** Num2 é ugual a:', num1 ** num2)
+else:
+  print('Erro! Digite uma operação válida.')
