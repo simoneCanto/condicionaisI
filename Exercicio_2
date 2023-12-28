@@ -1,0 +1,8 @@
+# Exercício 2
+
+entrada = float(input('Digite um número: '))
+
+if entrada % 2 == 0:
+  print('O número {} é um número par!!'.format(entrada))
+else:
+  print('O número {} não é par, tente novamente.'.format(entrada))
