@@ -1,0 +1,9 @@
+# Exercício 10
+
+lanchePreco = float(input('Qual o preço do Lanche? '))
+saldo = float(input('Quanto você tem de dinheiro? '))
+
+if saldo >= 20 and lanchePreco < 10:
+  print('Comprar o Lanche!!!')
+else:
+  print('Não comprar o Lanche.')
