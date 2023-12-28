@@ -1,0 +1,13 @@
+# Exercício 9
+
+vontade = input('O que você quer comer? ')
+
+if vontade == 'Lanche':
+  print('Vá ao Méqui!')
+elif vontade == 'Pizza':
+  print('Vá ao Hut!')
+elif vontade == 'Mexicano':
+  print('Vá ao Bell!')
+else:
+  print('Tente novamente!')
+print('Fim do programa!!')
