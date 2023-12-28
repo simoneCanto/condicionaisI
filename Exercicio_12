@@ -1,0 +1,13 @@
+# Exercício 12
+
+entrada = input('digite algo: ')
+
+ehNum = entrada.isnumeric()
+ehTex = entrada.isalpha()
+ehNumTex = entrada.isalnum()
+print('É um número!')
+print(ehNum)
+print('É um texto!')
+print(ehTex)
+print('É um Texto e um número!')
+print(ehNumTex)
