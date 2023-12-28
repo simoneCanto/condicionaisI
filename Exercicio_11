@@ -1,0 +1,8 @@
+# Exercício 11
+
+media = float(input('Qual foi sua média? '))
+notaFinal = float(input('Qual foi sua nota final? '))
+if media > 7 or notaFinal > 7:
+  print('Você está aprovado!!! :)')
+else:
+  print('Você está reprovado! :(')
