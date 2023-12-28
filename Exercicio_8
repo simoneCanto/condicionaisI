@@ -1,0 +1,13 @@
+# Exercício 8
+
+# Declarando as variáveis
+a = input('Digite o número a: ')
+b = input('Digite o número b: ')
+
+# Montando o if-elif-else
+if a > b:
+  print('*a* é maior do que *b*')
+elif a == b:
+  print('*a* é igual a *b*')
+else:
+  print('*a* é menor do que *b*')
