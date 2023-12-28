@@ -1,0 +1,15 @@
+# Exercicio 7
+
+# Pedindo inputs
+num1 = float(input('Digite um número: '))
+num2 = float(input('Digite outro número: '))
+
+# Fazendo o if
+if num1 >= num2:
+  print('num1 é maior ou igual a num2')
+  num2 = num2 * 5
+else:
+  print('num1 é menor que num2')
+  num1 = num1 * 5
+
+print('Novos valores num1 = {} e num2 = {}'.format(num1, num2))
